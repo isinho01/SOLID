@@ -1,5 +1,3 @@
-class Salvarbanco{
-    public static salvarbanco(){
-    repositorio.salvar(pedido);
-    }
+public interface Salvarbanco{
+    public void salvar(Pedido pedido);
 }
